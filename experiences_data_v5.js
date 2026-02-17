@@ -367,31 +367,6 @@ window.EXP_DATA = {
             "microThumb": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKKADAAQAAAABAAAAHgAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgAHgAoAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMADw8PDw8PGg8PGiQaGhokMSQkJCQxPjExMTExPks+Pj4+Pj5LS0tLS0tLS1paWlpaWmlpaWlpdnZ2dnZ2dnZ2dv/bAEMBEhMTHhweNBwcNHtURVR7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e//dAAQAA//aAAwDAQACEQMRAD8A2RDTxDWOjHkSB19F71IxUghdytkYXJyRWqrp7mHsX0NgQmqdw7RXEcRbardTxx+dZfmSjbgthj3JGKgu5nZVWKKSQ4+/g5HPTFKdS691lQhZ+8jQlup45miWRSB0JApn2y5/56L+VNliurqDyWBXAGCw/wAmqH9jz/8APRfyNZqrLsaOlG+5/9CPVY2tpUuEbIfr6ZFFxMxtxJAhV24bHOffFc49xNK43sT9a7G03Rxq3+yCPbIrKSsWpaFKZ2gginmJEvGE7fUjtTLabLpcSPgtuznoeaivbRpHjcuW848E8EVYuoFsLOJT8+GOc+9Jq6HGVmbk8nmw4i+YsoGRzj61kfZrv1/8dqK0n8idTFkBuo7Vufbm9B+QpFt+R//Z"
         },
         {
-            "id": "sunlighten-collateral-animations",
-            "title": "SunLighten",
-            "section": "Collateral Animations",
-            "category": "Sauna",
-            "type": "Animation",
-            "tags": [
-                "sauna",
-                "animation"
-            ],
-            "thumbnail": "assets/sunlightenCollateralAnimations/thumbnail.jpg",
-            "onlineUrl": "assets/animations_Images/Animations/SunLighten",
-            "localPath": "#",
-            "description": "SunLighten - Sauna",
-            "isOfflineReady": true,
-            "slides": [
-                {
-                    "type": "video",
-                    "path": "assets/sunlightenCollateralAnimations/video01.mp4",
-                    "thumbnail": "assets/sunlightenCollateralAnimations/videoThumb01.jpg"
-                }
-            ],
-            "isAssetFolder": true,
-            "microThumb": "data:image/jpeg;base64,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"
-        },
-        {
             "id": "sun-home-saunas-collateral-animations",
             "title": "Sun Home Saunas",
             "section": "Collateral Animations",
@@ -408,8 +383,8 @@ window.EXP_DATA = {
             "isOfflineReady": true,
             "slides": [
                 {
-                    "type": "video",
-                    "path": "assets/sunHomeSaunasCollateralAnimations/video01.mp4",
+                    "type": "youtube",
+                    "youtubeId": "B8ibugdUFXQ",
                     "thumbnail": "assets/sunHomeSaunasCollateralAnimations/videoThumb01.jpg"
                 }
             ],
@@ -433,8 +408,8 @@ window.EXP_DATA = {
             "isOfflineReady": true,
             "slides": [
                 {
-                    "type": "video",
-                    "path": "assets/sheedCollateralAnimations/video01.mp4",
+                    "type": "youtube",
+                    "youtubeId": "2JC95j3MudA",
                     "thumbnail": "assets/sheedCollateralAnimations/videoThumb01.jpg"
                 }
             ],
@@ -458,48 +433,23 @@ window.EXP_DATA = {
             "isOfflineReady": true,
             "slides": [
                 {
-                    "type": "video",
-                    "path": "assets/dewaltMowerCollateralAnimations/video01.mp4",
+                    "type": "youtube",
+                    "youtubeId": "sJHw9N0zcrc",
                     "thumbnail": "assets/dewaltMowerCollateralAnimations/videoThumb01.jpg"
                 },
                 {
-                    "type": "video",
-                    "path": "assets/dewaltMowerCollateralAnimations/video02.mp4",
+                    "type": "youtube",
+                    "youtubeId": "rM_NaGEsdRY",
                     "thumbnail": "assets/dewaltMowerCollateralAnimations/videoThumb02.jpg"
                 },
                 {
-                    "type": "video",
-                    "path": "assets/dewaltMowerCollateralAnimations/video03.mp4",
+                    "type": "youtube",
+                    "youtubeId": "eMI6vovRlsg",
                     "thumbnail": "assets/dewaltMowerCollateralAnimations/videoThumb03.jpg"
                 }
             ],
             "isAssetFolder": true,
             "microThumb": "data:image/jpeg;base64,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"
-        },
-        {
-            "id": "bathroom-collateral-animations",
-            "title": "Bathroom",
-            "section": "Collateral Animations",
-            "category": "Bathroom",
-            "type": "Animation",
-            "tags": [
-                "bathroom",
-                "animation"
-            ],
-            "thumbnail": "assets/bathroomCollateralAnimations/thumbnail.jpg",
-            "onlineUrl": "assets/animations_Images/Animations/Bathroom",
-            "localPath": "#",
-            "description": "Bathroom - Bathroom",
-            "isOfflineReady": true,
-            "slides": [
-                {
-                    "type": "video",
-                    "path": "assets/bathroomCollateralAnimations/video01.mp4",
-                    "thumbnail": "assets/bathroomCollateralAnimations/videoThumb01.jpg"
-                }
-            ],
-            "isAssetFolder": true,
-            "microThumb": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKKADAAQAAAABAAAAHgAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgAHgAoAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMADw8PDw8PGg8PGiQaGhokMSQkJCQxPjExMTExPks+Pj4+Pj5LS0tLS0tLS1paWlpaWmlpaWlpdnZ2dnZ2dnZ2dv/bAEMBEhMTHhweNBwcNHtURVR7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e//dAAQAA//aAAwDAQACEQMRAD8A1LcXFjEWhbzLcDLI55Qdyp7j2NXpm8uAOR1IxWXFqcLQeXGkpJGMbGxz6nFXL+4MtmJD3I/nQBpPcgQ59qpnEmklvY/zrmp71wu0GtyzkDaLlugjJ/NjQBsWEMUcZkRfmc/MfXHStHmqFkSYBg9/6CruD/eNAH//0J5vEdqke2FWk9iNvPuc/wBKq2Fxc6uJoW2pgrtA4AHOa5FmxWrouoiyeQlCxbHfHSgDoJtBuWOQwNW/s81no8sMnUJjA/3s5/KmJ4hH/PI/99f/AFq53WdbnmcCEtFj0PXIoA7zT7mEwDJ4OOfwFaPnW/8AeFeeWc8kSqyHBIB//XWl/aFz6j8qQH//2Q=="
         },
         {
             "id": "kitchen-collateral-animations",
@@ -518,13 +468,14 @@ window.EXP_DATA = {
             "isOfflineReady": true,
             "slides": [
                 {
-                    "type": "video",
-                    "path": "assets/kitchenCollateralAnimations/video01.mp4",
-                    "thumbnail": "assets/kitchenCollateralAnimations/videoThumb01.jpg"
+                    "type": "youtube",
+                    "youtubeId": "dQw4w9WgXcQ",
+                    "thumbnail": "assets/kitchenCollateralAnimations/videoThumb01.jpg",
+                    "label": "Demo - Uploading..."
                 },
                 {
-                    "type": "video",
-                    "path": "assets/kitchenCollateralAnimations/video02.mp4",
+                    "type": "youtube",
+                    "youtubeId": "9TF2queHXJk",
                     "thumbnail": "assets/kitchenCollateralAnimations/videoThumb02.jpg"
                 }
             ],
@@ -548,38 +499,13 @@ window.EXP_DATA = {
             "isOfflineReady": true,
             "slides": [
                 {
-                    "type": "video",
-                    "path": "assets/neighboorCollateralAnimations/video01.mp4",
+                    "type": "youtube",
+                    "youtubeId": "WYiHTCXltQU",
                     "thumbnail": "assets/neighboorCollateralAnimations/videoThumb01.jpg"
                 }
             ],
             "isAssetFolder": true,
             "microThumb": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKKADAAQAAAABAAAAHgAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgAHgAoAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMADw8PDw8PGg8PGiQaGhokMSQkJCQxPjExMTExPks+Pj4+Pj5LS0tLS0tLS1paWlpaWmlpaWlpdnZ2dnZ2dnZ2dv/bAEMBEhMTHhweNBwcNHtURVR7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e//dAAQAA//aAAwDAQACEQMRAD8A6nFGKie52yeWF6HFH2lCocDgnafbt/OlcdiXFGKrPcOpZlBYAccVWGoS+UXaMg4zjBouFjSxRiqVldtdEs3y4ONuOf1rT2incVj/0Ld7bXTTvNGWGTwBn09q0Ua8cDZCqcdXP9BWrRU8pXMZb2d1MuJZgPZV4/nUB0y5H3ZQfqD/AI1t0U+VCuyhbWjRNvkOT7VepaKaQXP/2Q=="
-        },
-        {
-            "id": "reel-collateral-animations",
-            "title": "Reel",
-            "section": "Collateral Animations",
-            "category": "Mixed",
-            "type": "Animation",
-            "tags": [
-                "mixed",
-                "animation"
-            ],
-            "thumbnail": "assets/reelCollateralAnimations/thumbnail.jpg",
-            "onlineUrl": "assets/animations_Images/Animations/Reel",
-            "localPath": "#",
-            "description": "Reel - Mixed",
-            "isOfflineReady": true,
-            "slides": [
-                {
-                    "type": "video",
-                    "path": "assets/reelCollateralAnimations/video01.mp4",
-                    "thumbnail": "assets/reelCollateralAnimations/videoThumb01.jpg"
-                }
-            ],
-            "isAssetFolder": true,
-            "microThumb": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKKADAAQAAAABAAAAHgAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgAHgAoAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMADw8PDw8PGg8PGiQaGhokMSQkJCQxPjExMTExPks+Pj4+Pj5LS0tLS0tLS1paWlpaWmlpaWlpdnZ2dnZ2dnZ2dv/bAEMBEhMTHhweNBwcNHtURVR7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e//dAAQAA//aAAwDAQACEQMRAD8At6SM25P+0f51XfVj9q8nZ8hbbnv6ZqTSCv2cn/a/rWOQDeA/7f8AWsTU6eW2Yws6kHvVOWCVeSprSkmjSI7g3TsDVdLmDcQWx9TQ0O5iyD+dNxWhc3FmRsGGYnj/APXVLMP92psO5//QqvcLZhlt+/IA5qinntKJdhA3Z/WuoKjriqxI3Vzcx0cpjy3eovLsQHk4GV45966oWRMavIFUkDJPU49qiaFGQBumPp/Wqs2Q+5p5d3tjFaXIsFzpCT4MLCMqc5x19sVX/sSf/nsv/fJ/xphkmVs+a7D3I/wp/wBol/vN+dHMg5Wf/9k="
         },
         {
             "id": "neighboor-case-studies-webpage",

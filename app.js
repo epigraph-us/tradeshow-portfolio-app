@@ -443,7 +443,19 @@ function renderSlide() {
     const slide = currentSlides[currentSlideIndex];
     modalMediaContainer.innerHTML = '';
 
-    if (slide.type === 'video') {
+    if (slide.type === 'youtube') {
+        const wrapper = document.createElement('div');
+        wrapper.style.cssText = 'position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;';
+
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/' + slide.youtubeId + '?autoplay=1&rel=0&modestbranding=1';
+        iframe.style.cssText = 'width:90vw;height:70vh;max-width:1200px;border:none;border-radius:8px;box-shadow:0 0 50px rgba(0,0,0,0.5);';
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.setAttribute('allowfullscreen', 'true');
+
+        wrapper.appendChild(iframe);
+        modalMediaContainer.appendChild(wrapper);
+    } else if (slide.type === 'video') {
         const wrapper = document.createElement('div');
         wrapper.style.cssText = 'position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;';
 
@@ -518,7 +530,7 @@ function renderThumbnails() {
 
             let elementToAdd;
 
-            if (slide.type === 'video') {
+            if (slide.type === 'video' || slide.type === 'youtube') {
                 const wrapper = document.createElement('div');
                 wrapper.className = 'video-thumb-container';
                 wrapper.appendChild(img);
@@ -533,7 +545,7 @@ function renderThumbnails() {
             });
             modalThumbnails.appendChild(elementToAdd);
 
-        } else if (slide.type === 'video') {
+        } else if (slide.type === 'video' || slide.type === 'youtube') {
             const div = document.createElement('div');
             div.className = 'modal-thumb modal-thumb-video';
             div.style.backgroundColor = '#333';
