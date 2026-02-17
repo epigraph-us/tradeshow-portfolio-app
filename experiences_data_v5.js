@@ -470,6 +470,11 @@ window.EXP_DATA = {
                 {
                     "type": "youtube",
                     "youtubeId": "9TF2queHXJk",
+                    "thumbnail": "assets/kitchenCollateralAnimations/videoThumb01.jpg"
+                },
+                {
+                    "type": "youtube",
+                    "youtubeId": "l4qsODSSnts",
                     "thumbnail": "assets/kitchenCollateralAnimations/videoThumb02.jpg"
                 }
             ],
