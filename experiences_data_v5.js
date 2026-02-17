@@ -469,12 +469,6 @@ window.EXP_DATA = {
             "slides": [
                 {
                     "type": "youtube",
-                    "youtubeId": "dQw4w9WgXcQ",
-                    "thumbnail": "assets/kitchenCollateralAnimations/videoThumb01.jpg",
-                    "label": "Demo - Uploading..."
-                },
-                {
-                    "type": "youtube",
                     "youtubeId": "9TF2queHXJk",
                     "thumbnail": "assets/kitchenCollateralAnimations/videoThumb02.jpg"
                 }
