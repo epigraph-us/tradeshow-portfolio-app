@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Epigraph Trade Show - KBIS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/icons/epigraph_v1.svg">
+</head>
+
+<body>
+
+    <!-- Loading / Error Overlay -->
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <div id="loading-text" style="color: #888; letter-spacing: 1px;">LOADING EXPERIENCE</div>
+        <div id="error-message" class="error-message"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="brand-container">
+                <img src="assets/icons/epigraph_v1.svg" alt="Epigraph" class="brand-logo-img">
+                <div class="brand-divider">&times;</div>
+                <img src="assets/icons/KBISMultiColorOneLine-crop-white.jpg" alt="KBIS - Kitchen & Bath Industry Show"
+                    class="event-logo-img">
+            </div>
+
+            <div class="header-controls">
+                <!-- Online/Offline indicator -->
+                <div id="connection-status" class="connection-badge online" title="Connection status">
+                    <span class="connection-dot"></span>
+                    <span id="connection-label">Online</span>
+                </div>
+
+                <button id="view-toggle" class="view-toggle" aria-label="Toggle View">
+                    <svg class="icon-grid" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    <svg class="icon-list" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" style="display:none;">
+                        <path d="M8 6h13" />
+                        <path d="M8 12h13" />
+                        <path d="M8 18h13" />
+                        <path d="M3 6h.01" />
+                        <path d="M3 12h.01" />
+                        <path d="M3 18h.01" />
+                    </svg>
+                </button>
+
+                <div class="search-bar">
+                    <span class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" id="search-input" placeholder="Search demos, collateral...">
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area (Injected by JS) -->
+        <div id="main-content">
+            <!-- Sections go here -->
+        </div>
+
+        <!-- Slideshow Modal -->
+        <div id="slideshow-modal" class="modal hidden">
+            <button id="modal-close" class="modal-close">&times;</button>
+            <div class="modal-content">
+                <button id="modal-prev" class="modal-nav prev">&#10094;</button>
+                <div id="modal-media-container" class="modal-media-container">
+                    <!-- Media injected here -->
+                </div>
+                <button id="modal-next" class="modal-nav next">&#10095;</button>
+            </div>
+            <div id="modal-thumbnails" class="modal-thumbnails">
+                <!-- Thumbnails injected here -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="margin-top: 60px; text-align: center; color: #444; font-size: 0.8rem;">
+            Epigraph Trade Show v4.0 &bull; KBIS Edition
+        </div>
+    </div>
+
+    <!-- Application Logic -->
+    <script src="experiences_data_v5.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

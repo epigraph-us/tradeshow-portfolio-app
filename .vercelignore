@@ -1,0 +1,7 @@
+.DS_Store
+*.py
+*.sh
+*.command
+*.log
+node_modules
+.git
