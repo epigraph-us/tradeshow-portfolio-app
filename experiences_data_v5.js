@@ -201,8 +201,8 @@ window.EXP_DATA = {
                 "custumizer reviewer"
             ],
             "thumbnail": "assets/janusEtCieArborLoungeInteractiveCapabilities/thumbnail.jpg",
-            "onlineUrl": "https://solutions-review.myepigraph.com/index-production?uuid=4aa39aad-a1e1-46f7-9282-0f989e6011f3&customVersionId=a10a3ff4-b0f5-4c2b-9934-92522e720ed5",
-            "localPath": "https://solutions-review.myepigraph.com/index-production?uuid=4aa39aad-a1e1-46f7-9282-0f989e6011f3&customVersionId=a10a3ff4-b0f5-4c2b-9934-92522e720ed5",
+            "onlineUrl": "https://storage.googleapis.com/gsc-epigraph-design/customizer-rev-tool-v04/index.html?expId=6f557691-1e56-4ad7-89ca-4990b14ac634&epgSharedConfigId=b1d97e3ebe76399f2acb27b5",
+            "localPath": "https://storage.googleapis.com/gsc-epigraph-design/customizer-rev-tool-v04/index.html?expId=6f557691-1e56-4ad7-89ca-4990b14ac634&epgSharedConfigId=b1d97e3ebe76399f2acb27b5",
             "description": "Janus Et Cie - Arbor Lounge - Furniture",
             "isOfflineReady": false,
             "slides": [],
